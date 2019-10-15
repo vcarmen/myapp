@@ -1,4 +1,6 @@
 version: 2.1
+orbs:
+  compare-url: iynere/compare-url@1.2.0
 jobs:
   build:
     docker:
@@ -6,3 +8,4 @@ jobs:
     steps:
     - checkout
     - run: echo "hello world testing version"
+    - run: pwd
