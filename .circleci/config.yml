@@ -5,4 +5,4 @@ jobs:
     - image: circleci/node:12.9.1-browsers
     steps:
     - checkout
-    - run: echo "hello world"
+    - run: echo "hello world testing version"
